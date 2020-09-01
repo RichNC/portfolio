@@ -6,31 +6,33 @@ import './App.css';
 export function Projects(props){
   return (
     <div>
-      <h1>Projects</h1>
-      <Thumbnail
-        link=""
-        image=""
-        title=""
-        category=""
-      />
-      <Thumbnail
-        link=""
-        image=""
-        title=""
-        category=""
-      />
-      <Thumbnail
-        link=""
-        image=""
-        title=""
-        category=""
-      />
-      <Thumbnail
-        link=""
-        image=""
-        title=""
-        category=""
-      />
+      <h2>Projects</h2>
+      <div className="thumbnail-container">
+        <Thumbnail
+          link=""
+          image=""
+          title=""
+          category=""
+        />
+        <Thumbnail
+          link=""
+          image=""
+          title=""
+          category=""
+        />
+        <Thumbnail
+          link=""
+          image=""
+          title=""
+          category=""
+        />
+        <Thumbnail
+          link=""
+          image=""
+          title=""
+          category=""
+        />
+      </div>
     </div>
     )
 }

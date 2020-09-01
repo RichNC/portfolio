@@ -2,7 +2,22 @@ body {
   background-color: #F9E7E7;
   width: 65%;
   margin: 0 auto;
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
+hr {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  border-width: 0;
+  border-top: 2px solid #000;
+  width: 40px;
+  text-align: left;
+  margin-left: 0;
+}
+
+h1, h2 {
+  font-weight: 800;
 }
 
 a {
@@ -20,7 +35,8 @@ a {
 }
 
 #initials {
-  font-size: 4em;
+  font-size: 5em;
+  font-family: 'Abril Fatface', cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -63,4 +79,24 @@ a {
   margin-left: 50px;
 }
 
+.project {
+  border: 1px solid black;
+  width: 30%;
+  height: 230px;
+  margin: 0 auto;
+}
 
+.thumbnail-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#home {
+  font-size: 25px;
+  text-align: left;
+  width: 45%;
+  position: fixed;
+  bottom: 50px;
+  letter-spacing: .15rem;
+}
