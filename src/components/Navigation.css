@@ -11,7 +11,9 @@
 #initials {
   margin: ;
   font-size: 7rem;
-  font-family: 'Abril Fatface', cursive;
+  font-family: rig-solid-bold-inline, 'Abril Fatface', cursive, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   transition: transform 1s;
  /*  transform: rotate(-5deg); */
 }

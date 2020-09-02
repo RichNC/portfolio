@@ -2,13 +2,41 @@ body {
   margin: 0;
   background-color: #12191C;
   height: 100%;
-  font-family: 'Alata', sans-serif;
+  font-family: futura-pt, 'Alata', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #F9E7E7;
-
+  text-align: center;
+  /* Fade-in on load effect */
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   -webkit-transition:background-color 1s ease;
   -moz-transition:background-color 1s ease;
   -o-transition:background-color 1s ease;
   transition:background-color 1s ease;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+h2 {
+  font-family: futura-pt, 'Alata', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-container {
@@ -23,26 +51,6 @@ hr {
   text-align: left;
   margin-left: 0;
 }
-
-h1, h2 {
-  font-weight: 800;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
 
 /* Animation Classes */
 .page-enter {

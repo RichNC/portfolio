@@ -1,12 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route  } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Home } from './components/Home';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
-import { Articles } from './Articles';
+import { Articles } from './components/Articles';
 import { Footer } from './components/Footer';
 import { AnimatedSwitch } from './AnimatedSwitch';
 import { AnimatedRoute } from './AnimatedRoute';
