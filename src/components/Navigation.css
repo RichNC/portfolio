@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.navigation-sub a {
+  margin-left: 50px;
+}
+
+#initials {
+  margin: ;
+  font-size: 7rem;
+  font-family: 'Abril Fatface', cursive;
+  transition: transform 1s;
+ /*  transform: rotate(-5deg); */
+}
+
+h1#initials {
+  margin: 0;
+}
+
+#initials:hover {
+  transform: rotate(-20deg);
+}
+
+.item {
+  font-size: 20px;
+}

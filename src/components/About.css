@@ -1,0 +1,17 @@
+.about-text {
+  column-count: 2;
+  break-inside: avoid;
+}
+
+.about {
+  text-align: left;
+}
+
+.about hr {
+  margin-bottom: 50px;
+  border-top: 2px solid #12191C;
+}
+
+.about h1 {
+  margin-top: 0;
+}

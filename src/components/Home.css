@@ -1,0 +1,14 @@
+#home {
+  font-size: 2rem;
+  text-align: left;
+  width: 45%;
+  position: fixed;
+  bottom: 20px;
+  letter-spacing: 0;
+  font-family: 'Alata', sans-serif;
+}
+
+#home hr {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}

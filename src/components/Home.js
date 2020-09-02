@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 
 export function Home(props){
   return (
@@ -7,6 +8,5 @@ export function Home(props){
       <p><strong>Frontend Web Developer, Javascript, React, Admirer of clean, minimalist design. Lorem ips</strong></p>
       <hr />
     </div>
-    )
-
+  )
 }
