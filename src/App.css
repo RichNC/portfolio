@@ -5,13 +5,13 @@ body {
   font-family: 'Alata', sans-serif;
   color: #F9E7E7;
 
-  -webkit-transition:background-color 0.3s ease;
-  -moz-transition:background-color 0.3s ease;
-  -o-transition:background-color 0.3s ease;
-  transition:background-color 0.3s ease;
+  -webkit-transition:background-color 1s ease;
+  -moz-transition:background-color 1s ease;
+  -o-transition:background-color 1s ease;
+  transition:background-color 1s ease;
 }
 
-.container {
+.main-container {
   width: 70%;
   margin: 0 auto;
 }
@@ -56,36 +56,6 @@ a {
 
 #initials:hover {
   transform: rotate(-750deg);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .navigation {
@@ -153,4 +123,21 @@ footer {
 
 .about h1 {
   margin-top: 0;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translate3d(0, 0, 0);
+}
+.page-enter.page-enter-active {
+  transition: all 01s ease-in-out;
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit.page-exit-active {
+  opacity: 0;
+  transition: all 0.1s ease-in;
 }

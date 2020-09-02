@@ -1,10 +1,5 @@
 import React from 'react';
 
-export function lightsOn(){
-  document.querySelector('body').style.backgroundColor = '#F9E7E7';
-  document.querySelector('body').style.color = '#12191C';
-}
-
 export function About(props){
   return (
     <div className="about">
