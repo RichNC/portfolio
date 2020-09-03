@@ -7,10 +7,10 @@ export function Navigation(){
     <div className="navigation">
       <Link to="/"><h1 id ="initials" onClick={lightsOff}>rc</h1></Link>
       <div className="navigation-sub">
-        <Link to="/projects" className="item" id="nav-link" onClick={lightsOff}>Projects</Link>
-        <Link to="/articles" className="item" onClick={lightsOff}>Articles</Link>
-        <Link to="/about" className="item" onClick={lightsOn}>About</Link>
-
+        <Link to="/projects" className="item projects" id="nav-link" onClick={lightsOff}>Projects</Link>
+        <Link to="/articles" className="item articles" onClick={lightsOff}>Articles</Link>
+        <Link to="/about" className="item about" onClick={lightsOn}>About</Link>
+        <Link to="#"><i class="fab fa-github"></i></Link>
       </div>
     </div>
   )
