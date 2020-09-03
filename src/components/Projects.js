@@ -7,6 +7,7 @@ export function Projects(props){
   return (
     <div>
       <h2>Projects</h2>
+      <p>(Add horizontal scrolling effect)</p>
       <div className="thumbnail-container">
         <Thumbnail
           link=""

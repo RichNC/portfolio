@@ -1,14 +1,13 @@
 #home {
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-align: left;
   width: 45%;
   position: fixed;
   bottom: 40px;
-  letter-spacing: 0;
   font-family: futura-pt, 'Alata',sans-serif;
   font-weight: 500;
   font-style: normal;
-
+  line-height: 1.2;
 }
 
 #home hr {

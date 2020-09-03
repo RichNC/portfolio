@@ -2,21 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
 
-
 export function Navigation(){
   return (
-          <div className="navigation">
-            <Link to="/"><h1 id ="initials" onClick={lightsOff}>rc</h1></Link>
-            <div className="navigation-sub">
-              <Link to="/projects" className="item" onClick={lightsOff}>Projects</Link>
-              <Link to="/articles" className="item" onClick={lightsOff}>Articles</Link>
-              <Link to="/about" className="item" onClick={lightsOn}>About</Link>
-              <a><i className="fab fa-github"></i></a>
-            </div>
-          </div>
-    )
-}
+    <div className="navigation">
+      <Link to="/"><h1 id ="initials" onClick={lightsOff}>rc</h1></Link>
+      <div className="navigation-sub">
+        <Link to="/projects" className="item" id="nav-link" onClick={lightsOff}>Projects</Link>
+        <Link to="/articles" className="item" onClick={lightsOff}>Articles</Link>
+        <Link to="/about" className="item" onClick={lightsOn}>About</Link>
 
+      </div>
+    </div>
+  )
+}
 
 export function lightsOff(){
   document.querySelector('body').style.backgroundColor = '#12191C';
