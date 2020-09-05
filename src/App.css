@@ -43,6 +43,10 @@ a {
 .main-container {
   width: 70%;
   margin: 0 auto;
+  -webkit-transition:width 1s ease-out;
+  -moz-transition:width 1s ease-out;
+  -o-transition:width 1s ease-out;
+  transition:width 1s ease-out;
 }
 
 hr {

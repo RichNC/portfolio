@@ -26,7 +26,6 @@ function App() {
             <AnimatedRoute path="/about" component={About} />
           </AnimatedSwitch>
         </div>
-        <Footer />
       </div>
     </BrowserRouter>
   )
