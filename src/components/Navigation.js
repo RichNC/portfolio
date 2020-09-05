@@ -10,7 +10,8 @@ export function Navigation(){
         <Link to="/projects" className="item projects" id="nav-link" onClick={lightsOff}>Projects</Link>
         <Link to="/articles" className="item articles" onClick={lightsOff}>Articles</Link>
         <Link to="/about" className="item about" onClick={lightsOn}>About</Link>
-        <Link to="#"><i class="fab fa-github"></i></Link>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/rich-cherry"><i class="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rich-cherry/"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
   )
