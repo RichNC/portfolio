@@ -25,5 +25,25 @@ h1#initials {
 }
 
 .item {
-  font-size: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 5px;
+  position: relative;
+}
+
+.item:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #F9E7E7;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.item:hover:after {
+  width: 100%;
+  left: 0;
 }

@@ -1,11 +1,11 @@
 body {
   margin: 0;
+  color: #F9E7E7;
   background-color: #12191C;
   height: 100vh;
   font-family: futura-pt, 'Alata', sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #F9E7E7;
   text-align: center;
   /* Fade-in on load effect */
   animation: fadeInAnimation ease 3s;
