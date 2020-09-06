@@ -6,7 +6,6 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 import { Projects } from './components/Projects';
 import { Articles } from './components/Articles';
-import { Footer } from './components/Footer';
 import { AnimatedSwitch } from './AnimatedSwitch';
 import { AnimatedRoute } from './AnimatedRoute';
 
@@ -30,7 +29,6 @@ function App() {
     </BrowserRouter>
   )
 }
-
 
 
 export default App;
